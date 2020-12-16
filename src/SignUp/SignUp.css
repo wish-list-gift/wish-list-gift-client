@@ -1,6 +1,5 @@
-
+ 
 .sign-up-group {
-    border: 1px solid rgba();
     position: relative;
     top: 200px;
     display: flex;
@@ -18,10 +17,12 @@
 
 .bg {
     background-image: url(../images/SignUpBG.png);
-    height:100vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index:5;
+   }
 
-    }
+   .container{
+       overflow-y: hidden;
+   } 

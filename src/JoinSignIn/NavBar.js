@@ -4,19 +4,12 @@ import './NavBar.css';
 import logo from '../images/WishListGift.png'
 
 
-/* const state = () => {
-    showCollapsedMenu: false
-};
-const toggleMenu = () => {
-    this.setState({
-        showCollapsedMenu: !this.state.showCollapsedMenu
-      })
-}
-
-const show = () => {
-    (this.state.showCollapsedMenu) ? "show" : "" ;} */
-
-const NavBar = (props) => {
+function NavBar(props) {
+    const styleObj = {
+        fontSize: '1.1rem',
+        color: "#df744a",
+        fontFamily: 'Ubuntu Condensed, sans-serif',
+    }
 
     return (
         <div>
@@ -26,16 +19,16 @@ const NavBar = (props) => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className={"collapse navbar-collapse" /* + show */} id="navbarNav">
-                    <ul className="navbar-nav mr-auto">
+                <div className={"collapse navbar-collapse"} id="navbarNav">
+                    <ul className="navbar-nav mr-auto" >
                         <li className="nav-item">
-                            <Link to='/join-sign-in' className="nav-link">Sign in/Join<span className="sr-only">(current)</span></Link>
+                            <Link to='/join-sign-in' className="nav-link" style={styleObj}> Sign in/Join<span className="sr-only">(current)</span></Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/friends' className="nav-link">Friends</Link>
+                            <Link to='/friends' className="nav-link" style={styleObj}> Friends</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/profile' className="nav-link">Profile</Link>
+                            <Link to='/profile' className="nav-link" style={styleObj}> Profile</Link>
                         </li>
                     </ul>
                 </div>
