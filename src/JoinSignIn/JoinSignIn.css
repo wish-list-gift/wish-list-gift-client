@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Tajawal:wght@300&family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+
+.login-container {
+    background: #a2ddd8;
+    padding: 50px 25px;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.welcome, .sign-in {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.welcome {
+    font-size: 3rem;
+    color: #df744a;
+}
+
+.sign-in {
+    font-size: 1.5rem;
+    color: #df744a;
+}
+
+#happy-wishing {
+   font-family: 'Playfair Display', serif;
+   font-size: 5rem;
+   color: #dcb239;
+
+}
+
+.sign-in-form {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    align-items: center;
+}
+
+.sign-up-link {
+    text-decoration: none;
+    color: #df744a;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.login-button {
+    /* background: white;
+    border: .5px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+/* @media (min-width: 426px) {
+    #happy-wishing {
+        width: 50vw;
+    }
+} */
