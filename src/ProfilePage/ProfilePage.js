@@ -1,9 +1,46 @@
-import React from 'react';
+import React,{ useState }from 'react';
 import axios from 'axios';
 import wishes from '../images/Wishes.jpg'
 import avatar from '../images/taylorswift.jpg'
+import { Modal } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
+
+
+function addAWishList(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+            Modal heading
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <h4>Centered Modal</h4>
+          <p>
+            Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+            dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+            consectetur ac, vestibulum at eros.
+          </p>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={props.onHide}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+  
+
+
+
+
 
 const ProfilePage = () => {
+    const [modalShow, setModalShow] = React.useState(false);
 
     // const [users, setUsers] = useState([])
 
@@ -60,7 +97,10 @@ const ProfilePage = () => {
                     <div class="col-sm-6">
                         <h2 class="text-center">User's Wish List</h2>
                         <div class="col-sm-12 text-center">
-                            <button class="btn btn-primary btn-block">Add a Wish +</button>
+                            <Button variant="primary" onClick={() => setModalShow(true)} class="btn btn-primary btn-block">Add a Wish +</Button>
+                            <addAWishList 
+                            show={modalShow}
+                            onHide={() => setModalShow(false)} />
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="card">
