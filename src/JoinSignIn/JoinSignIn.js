@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useHistory, Link } from 'react-router-dom'
-import logoTwo from '../images/HappyWishing2.svg'
 import './JoinSignIn.css'
 import axios from 'axios'
 
@@ -51,16 +50,10 @@ const JoinSignIn = (props) => {
                 </div>
                 <br />
                 <Link to="register" className="sign-up-link">Not Registered? Sign Up!</Link>
-
             </form>
             <br />
             <h1 id="happy-wishing">Happy Wishing!</h1>
-            {/* <img id="happy-wishing" src={logoTwo} alt="Happy Wishing!" /> */}
-
-
-
         </div>
     );
 };
-
 export default JoinSignIn;
