@@ -6,7 +6,7 @@ import { Modal } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
 
 
-function addAWishList(props) {
+function AddAWishList(props) {
     return (
       <Modal
         {...props}
@@ -35,12 +35,8 @@ function addAWishList(props) {
   }
   
 
-
-
-
-
 const ProfilePage = () => {
-    const [modalShow, setModalShow] = React.useState(false);
+    const [modalShow, setModalShow] = useState(false);
 
     // const [users, setUsers] = useState([])
 
@@ -97,8 +93,8 @@ const ProfilePage = () => {
                     <div class="col-sm-6">
                         <h2 class="text-center">User's Wish List</h2>
                         <div class="col-sm-12 text-center">
-                            <Button variant="primary" onClick={() => setModalShow(true)} class="btn btn-primary btn-block">Add a Wish +</Button>
-                            <addAWishList 
+                            <Button variant="primary" block onClick={() => setModalShow(true)} /* class="btn btn-primary btn-block" */>Add a Wish +</Button>
+                            <AddAWishList 
                             show={modalShow}
                             onHide={() => setModalShow(false)} />
                             <div class="row">
