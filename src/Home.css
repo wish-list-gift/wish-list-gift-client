@@ -1,16 +1,18 @@
-/* .img1{
-    width: 820px;
-    height: 530px;
 
+
+
+.cardHome{
+    text-align:center;
+    background-color:transparent;
+    border:4.5px solid #df744a!important;
 }
 
-.card-body {
-
-    height: 200px;
+.cardRow{
+    height: 100%;
+    width: 100%;
 }
 
- */
-
-
-
-
+hr {
+    margin-top:.2rem;
+    margin-bottom: .5rem; 
+}

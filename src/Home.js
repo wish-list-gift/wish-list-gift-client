@@ -3,18 +3,23 @@ import { Carousel } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css'
 import firstSlide from './images/presents.jpg'
-import wishes from './images/Wishes.jpg'
+import giftIcon from './images/giftIcon.png'
+import starsIcon from './images/starsIcon.png'
+import listIcon from './images/listIcon.png'
+import { Button } from 'react-bootstrap'
 
 const Home = () => {
     const txtStyle ={
-        textAlign:'center'
+        textAlign:'center',
+        backgroundColor:'transparent',
+        border: '10px'
     }
 
     return (
-        <div>
+        <>
             <div className='container'>
                 <div className="row" >
-                    <div className="col-12">
+                    <div className="col homePadding">
                         <Carousel >
                             <Carousel.Item>
                                 <img className="d-block w-100"
@@ -53,32 +58,35 @@ const Home = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-sm">
-                        <div className=" card-body" style={txtStyle}>
-                            <img className="card-img-top" src={wishes} alt="Card image cap" />
+                    <div className="col-sm-4">
+                        <div className=" card-body cardHome cardRow" >
+                            <img className="card-img-top" src={starsIcon} alt="Wish Icon" />
                             <h3 className="card-title">Wish It</h3>
+                            <hr/>
                             <p className="card-text">Got a wish? Have all your wishes come true by creating a profile full of all your hearts desires!</p>
 
                         </div>
                     </div>
-                    <div className="col-sm">
-                        <div className="card-body" style={txtStyle}>
-                            <img className="card-img-top" src={wishes} alt="Card image cap" />
+                    <div className="col-sm-4">
+                        <div className="card-body cardHome cardRow">
+                            <img className="card-img-top" src={listIcon} alt="List Icon " />
                             <h3 className="card-title">List It</h3>
+                            <hr/>
                             <p className="card-text">Make a list of all your wishes and have your friends and family checkout what you'd love most for any occasion.</p>
 
                         </div>
                     </div>
-                    <div className="col-sm">
-                        <div className="card-body" style={txtStyle}>
-                            <img className="card-img-top" src={wishes} alt="Card image cap" />
+                    <div className="col-sm-4">
+                        <div className="card-body cardHome cardRow">
+                            <img className="card-img-top" src={giftIcon} alt="Gift Icon" />
                             <h3 className="card-title">Gift It</h3>
+                            <hr/>
                             <p className="card-text">No idea what to get your friends/family? Check out their wish list to gift them everything they've ever wanted!</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
  );
 }
 
