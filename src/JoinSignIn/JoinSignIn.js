@@ -33,7 +33,7 @@ const JoinSignIn = (props) => {
     return (
         <div className="login-container">
             <h1 className="welcome">Welcome!</h1>
-            <h2 className="sign-in">Sign In</h2>
+            <h2 className="sign-in">Login</h2>
             <form className="sign-in-form" onSubmit={submitLogin}>
                 <div className="form-group">
                     <label for="email">Email </label>

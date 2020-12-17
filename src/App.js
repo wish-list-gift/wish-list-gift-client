@@ -17,9 +17,9 @@ function App() {
 
       <Switch>
         <Route exact path="/" render={(props) => <Home {...props} />} />
-        <Route exact path="/join-sign-in" render={(props) => <JoinSignIn {...props} />} />
+        <Route exact path="/login" render={(props) => <JoinSignIn {...props} />} />
         <Route exact path="/register" render={(props) => <SignUp {...props} />} />
-        <Route exact path="/friends" render={(props) => <Friends {...props} />} />
+        <Route exact path="/community" render={(props) => <Friends {...props} />} />
         <Route exact path="/profile" render={(props) => <ProfilePage {...props} />} />
 
 

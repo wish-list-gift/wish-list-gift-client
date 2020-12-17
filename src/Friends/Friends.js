@@ -13,6 +13,7 @@ const Friends = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-4"><Link to="#custom-modal" className="btn btn-custom waves-effect waves-light mb-4" data-animation="fadein" data-plugin="custommodal" data-overlayspeed="200" data-overlaycolor="#36404a"><i className="mdi mdi-plus"></i> Add Friend</Link></div>
+
                         {/* <!-- end col --> */}
                     </div>
                     {/* <!-- end row --> */}

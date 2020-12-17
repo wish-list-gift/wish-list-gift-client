@@ -22,7 +22,7 @@ const SignUp = (props) => {
         event.preventDefault();
         axios.post("http://localhost:3000/users/register", user)
             .then((res) => {
-                props.history.push("/profile")
+                props.history.push("/login")
             })
             .catch((error) => {
                 console.log(error)
