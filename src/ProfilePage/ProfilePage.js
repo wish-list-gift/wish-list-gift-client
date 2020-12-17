@@ -3,7 +3,12 @@ import axios from 'axios';
 import wishes from '../images/Wishes.jpg'
 import avatar from '../images/taylorswift.jpg'
 
+
+
+
 const ProfilePage = () => {
+
+
 
     // const [users, setUsers] = useState([])
 
@@ -54,8 +59,11 @@ const ProfilePage = () => {
                 <div class="row">
                     <div class="col-sm-6 text-center">
                         <img className="img-fluid d-block w-50 mx-auto" src={avatar} alt="Avatar" />
+                        <br />
                         <h3>Taylor Swift</h3>
                         <h3>Friends</h3>
+                        <br />
+                        <input className="searchBar" placeholder="Search Friends" />
                     </div>
                     <div class="col-sm-6">
                         <h2 class="text-center">User's Wish List</h2>
