@@ -45,12 +45,12 @@ const SignUp = (props) => {
 
                     <div className="form-group">
                         <label>Email address</label>
-                        <input type="text" name="email" value={user.email} className="form-control" placeholder="Enter email" onChange={handleUserChange} />
+                        <input type="email" name="email" value={user.email} className="form-control" placeholder="Enter email" onChange={handleUserChange} />
                     </div>
 
                     <div className="form-group">
                         <label>Password</label>
-                        <input type="text" name="password" value={user.password} className="form-control" placeholder="Enter password" onChange={handleUserChange} />
+                        <input type="password" name="password" value={user.password} className="form-control" placeholder="Enter password" onChange={handleUserChange} />
                     </div>
 
                     <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
