@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Carousel } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css'
@@ -6,15 +6,9 @@ import firstSlide from './images/presents.jpg'
 import giftIcon from './images/giftIcon.png'
 import starsIcon from './images/starsIcon.png'
 import listIcon from './images/listIcon.png'
-import { Button } from 'react-bootstrap'
+
 
 const Home = () => {
-    const txtStyle ={
-        textAlign:'center',
-        backgroundColor:'transparent',
-        border: '10px'
-    }
-
     return (
         <>
             <div className='container'>
@@ -57,9 +51,9 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row no-gutters">
                     <div className="col-sm-4">
-                        <div className=" card-body cardHome cardRow" >
+                        <div className=" card-body cardHome cardRow cardBorder" >
                             <img className="card-img-top" src={starsIcon} alt="Wish Icon" />
                             <h3 className="card-title">Wish It</h3>
                             <hr/>
@@ -77,7 +71,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-sm-4">
-                        <div className="card-body cardHome cardRow">
+                        <div className="card-body cardHome cardRow cardBorder">
                             <img className="card-img-top" src={giftIcon} alt="Gift Icon" />
                             <h3 className="card-title">Gift It</h3>
                             <hr/>
