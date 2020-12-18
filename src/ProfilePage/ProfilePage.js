@@ -126,7 +126,7 @@ const ProfilePage = () => {
                 <div className="row-justify-content-center">
                     <div className="col text-center">
                         <br />
-                        <h1>"When you wish upon a star"</h1>
+                        <h1 style={{ color: '#df744a', fontFamily: 'Dancing Script, cursive' }}>happiness is the same price as my wishlist ✨</h1>
                     </div>
                 </div>
                 <br />
@@ -136,8 +136,8 @@ const ProfilePage = () => {
                         <div className="col-sm-6 text-center">
                             <img className="img-fluid d-block w-50 mx-auto" src={avatar} alt="Avatar" />
                             <br />
-                            <h3>{productList[0].author.firstName} {productList[0].author.lastName}</h3>
-                            <h3>Friends</h3>
+                            <h3 style={{ color: '#df744a', fontFamily: 'Dancing Script, cursive' }}>{productList[0].author.firstName} {productList[0].author.lastName}</h3>
+                            {/* <h3>Friends</h3> */}
                             <br />
 
                         </div>
@@ -145,10 +145,10 @@ const ProfilePage = () => {
 
 
                         <div className="col-sm-6">
-                            <h2 className="text-center">My Wish List</h2>
+                            <h2 style={{ color: '#df744a' }} className="text-center">My Wish List</h2>
                             <br />
                             <div className="col-sm-12 text-center">
-                                <Button variant="primary" block onClick={() => setModalShow(true)} /* className="btn btn-primary btn-block" */>Add a Wish +</Button>
+                                <Button variant="warning" block onClick={() => setModalShow(true)} /* className="btn btn-primary btn-block" */>Add a Wish +</Button>
                                 <AddAWishList
                                     show={modalShow}
                                     onHide={() => setModalShow(false)} />
@@ -166,7 +166,7 @@ const ProfilePage = () => {
                                                                 <h5 className="card-title">{eachProd.productName}</h5>
                                                                 <p className="card-text"><strong>{eachProd.price}</strong></p>
                                                                 <p className="card-text"><strong>{eachProd.notes}</strong></p>
-                                                                <a href={eachProd.link} className="btn btn-primary">Gift it</a>
+                                                                <a href={eachProd.link} className="btn btn-warning">Gift it</a>
                                                             </div>
                                                         </div>
                                                     </div>
