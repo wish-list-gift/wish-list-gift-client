@@ -22,7 +22,7 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="drake" src={drake} className="rounded-circle img-thumbnail" alt="profile-image" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="drake" src={drake} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
                                         <h4>Drake</h4>
                                     </div>
@@ -37,7 +37,7 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="taylor" src={taylor} className="rounded-circle img-thumbnail" alt="profile-image" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="taylor" src={taylor} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
                                         <h4>Taylor Swift</h4>
                                     </div>
@@ -52,7 +52,7 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="future" src={future} className="rounded-circle img-thumbnail" alt="profile-image" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="future" src={future} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
                                         <h4>Future</h4>
                                     </div>
@@ -70,7 +70,7 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="drake" src={drake} className="rounded-circle img-thumbnail" alt="profile-image" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="drake" src={drake} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
                                         <h4>Drake</h4>
                                     </div>
@@ -85,7 +85,7 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="taylor" src={taylor} className="rounded-circle img-thumbnail" alt="profile-image" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="taylor" src={taylor} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
                                         <h4>Taylor Swift</h4>
                                     </div>
@@ -100,7 +100,7 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="future" src={future} className="rounded-circle img-thumbnail" alt="profile-image" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="future" src={future} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
                                         <h4>Future</h4>
                                     </div>
@@ -118,7 +118,7 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="drake" src={drake} className="rounded-circle img-thumbnail" alt="profile-image" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="drake" src={drake} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
                                         <h4>Drake</h4>
                                     </div>
@@ -133,7 +133,7 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="taylor" src={taylor} className="rounded-circle img-thumbnail" alt="profile-image" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="taylor" src={taylor} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
                                         <h4>Taylor Swift</h4>
                                     </div>
@@ -148,7 +148,7 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="future" src={future} className="rounded-circle img-thumbnail" alt="profile-image" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="future" src={future} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
                                         <h4>Future</h4>
                                     </div>

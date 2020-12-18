@@ -1,18 +1,21 @@
-
-
+/* .container{
+    padding: 0%;
+}
+ */
 
 .cardHome{
     text-align:center;
     background-color:transparent;
-    border:4.5px solid #df744a!important;
+    width:60%;
+
 }
 
-.cardRow{
-    height: 100%;
-    width: 100%;
+.carousel{
+    width: 90%;
 }
+
 
 hr {
     margin-top:.2rem;
-    margin-bottom: .5rem; 
+    margin-bottom: .2rem; 
 }
