@@ -6,7 +6,7 @@ import SignUp from './SignUp/SignUp.js';
 import JoinSignIn from './JoinSignIn/JoinSignIn'
 import Friends from './Friends/Friends.js'
 import ProfilePage from './ProfilePage/ProfilePage'
-import { Link, Switch, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 
 
 function App() {

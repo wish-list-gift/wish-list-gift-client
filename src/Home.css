@@ -1,13 +1,17 @@
-.container{
+/* .container{
     padding: 0%;
 }
+ */
 
-
- .cardHome{
+.cardHome{
     text-align:center;
     background-color:transparent;
-    width: 60%;
+    width:60%;
 
+}
+
+.carousel{
+    width: 90%;
 }
 
 

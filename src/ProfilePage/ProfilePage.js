@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import wishes from '../images/Wishes.jpg'
-import avatar from '../images/taylorswift.jpg'
+import axios from 'axios'
+import avatar from '../images/goldgift.jpeg'
 import { Modal } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
 import redgift from '../images/redgift.png'
 
 
 function AddAWishList(props) {
-    const [modalShow, setModalShow] = useState(false);
+    const [setModalShow] = useState(false);
 
     const [product, setProduct] = useState({
         productName: "",
@@ -98,6 +97,7 @@ function AddAWishList(props) {
 const ProfilePage = () => {
     const [modalShow, setModalShow] = useState(false);
     const [productList, setProductList] = useState();
+    const [userList, setUserList] = useState();
 
     useEffect(() => {
         // debugger
@@ -119,6 +119,24 @@ const ProfilePage = () => {
     console.log(productList)
     //map through productList in a separate function orrrrr
 
+    useEffect(() => {
+        // debugger
+        axios.get("http://localhost:3000/user-profile", {
+            headers: {
+                'Authorization': `Bearer ${localStorage.getItem("token")}`,
+            }
+        })
+            .then((res) => {
+                // debugger
+                console.log(res.data)
+                setUserList(res.data)
+            })
+            .catch(err => {
+                // debugger
+                console.log(err)
+            })
+    }, [])
+    console.log(userList)
 
     return (
         <>
@@ -130,13 +148,15 @@ const ProfilePage = () => {
                     </div>
                 </div>
                 <br />
-                {productList &&
+                {userList &&
 
                     <div className="row">
                         <div className="col-sm-6 text-center">
                             <img className="img-fluid d-block w-50 mx-auto" src={avatar} alt="Avatar" />
                             <br />
-                            <h3 style={{ color: '#df744a', fontFamily: 'Dancing Script, cursive' }}>{productList[0].author.firstName} {productList[0].author.lastName}</h3>
+                            <h3 style={{ color: '#df744a', fontFamily: 'Dancing Script, cursive' }}>
+                                {userList[0].firstName} {userList[0].lastName}
+                            </h3>
                             {/* <h3>Friends</h3> */}
                             <br />
 
@@ -167,6 +187,10 @@ const ProfilePage = () => {
                                                                 <p className="card-text"><strong>{eachProd.price}</strong></p>
                                                                 <p className="card-text"><strong>{eachProd.notes}</strong></p>
                                                                 <a href={eachProd.link} className="btn btn-warning">Gift it</a>
+                                                                {/* <br />
+                                                                <button>edit</button>
+                                                                <br />
+                                                                <button>delete</button> */}
                                                             </div>
                                                         </div>
                                                     </div>

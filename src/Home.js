@@ -12,9 +12,9 @@ const Home = () => {
     return (
         <>
             <div className='container '>
-                <div className="row no-gutters d-flex justify-content-center" >
-                    <div className="col-sm-10">
-                        <Carousel >
+                <div className="row no-gutters" >
+                    <div className="col-sm-12 d-flex justify-content-center ">
+                        <Carousel>
                             <Carousel.Item>
                                 <img className=" w-100"
                                     src={firstSlide}
@@ -51,8 +51,8 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="row no-gutters">
-                    <div className="col-sm-4 cardhome d-flex justify-content-center">
+                <div className="row no-gutters ">
+                    <div className="col-sm-4 d-flex justify-content-center ">
                         <div className="cardHome" >
                             <img className="card-img-top img-fluid" src={starsIcon} alt="Wish Icon" />
                             <h3 className="card-title">Wish It</h3>
@@ -61,7 +61,7 @@ const Home = () => {
 
                         </div>
                     </div>
-                    <div className="col-sm-4  cardhome d-flex justify-content-center">
+                    <div className="col-sm-4 d-flex justify-content-center ">
                         <div className="cardHome">
                             <img className="card-img-top img-fluid" src={listIcon} alt="List Icon " />
                             <h3 className="card-title">List It</h3>
