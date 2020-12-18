@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios'
-import avatar from '../images/goldgift.jpeg'
+import avatar from '../images/giftIcon.png'
 import { Modal } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
 import redgift from '../images/redgift.png'
