@@ -11,6 +11,11 @@ function NavBar(props) {
         fontFamily: 'Ubuntu Condensed, sans-serif',
     }
 
+    const logout = () => {
+        localStorage.clear();
+        window.location.href = '/';
+    }
+
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -22,13 +27,16 @@ function NavBar(props) {
                 <div className={"collapse navbar-collapse"} id="navbarNav">
                     <ul className="navbar-nav mr-auto" >
                         <li className="nav-item">
-                            <Link to='/join-sign-in' className="nav-link" style={styleObj}> Sign in/Join<span className="sr-only">(current)</span></Link>
+                            <Link to='/login' className="nav-link" style={styleObj}> Sign in/Join<span className="sr-only">(current)</span></Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/friends' className="nav-link" style={styleObj}> Friends</Link>
+                            <Link to='/community' className="nav-link" style={styleObj}> Community</Link>
                         </li>
                         <li className="nav-item">
                             <Link to='/profile' className="nav-link" style={styleObj}> Profile</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/' onClick={logout} className="nav-link" style={styleObj}> Logout</Link>
                         </li>
                     </ul>
                 </div>
