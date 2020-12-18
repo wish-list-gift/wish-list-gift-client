@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios'
-import avatar from '../images/giftIcon.png'
+import axios from 'axios';
+import wishes from '../images/Wishes.jpg'
+import avatar from '../images/profileavatar.png'
 import { Modal } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
 import redgift from '../images/redgift.png'
 
 
 function AddAWishList(props) {
-    const [setModalShow] = useState(false);
+    const [modalShow, setModalShow] = useState(false);
 
     const [product, setProduct] = useState({
         productName: "",

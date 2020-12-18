@@ -18,7 +18,7 @@ const SignUp = (props) => {
         })
     }
     function addUserHandler(event) {
-        debugger
+
         event.preventDefault();
         axios.post("http://localhost:3000/users/register", user)
             .then((res) => {
