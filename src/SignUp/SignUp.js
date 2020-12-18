@@ -32,7 +32,7 @@ const SignUp = (props) => {
         <div className='container fluid'>
             <div className="row sign-up-form bg">
                 <form onSubmit={addUserHandler} className="col-12 col-sm-4 sign-up-group">
-                    <h3>Sign Up</h3>
+                    <h1 style={{ color: '#df744a', fontFamily: 'Dancing Script, cursive' }}>Sign Up</h1>
                     <div className="form-group ">
                         <label>First name</label>
                         <input type="text" name="firstName" value={user.firstName} className="form-control" placeholder="Enter First name" onChange={handleUserChange} />
@@ -53,7 +53,7 @@ const SignUp = (props) => {
                         <input type="password" name="password" value={user.password} className="form-control" placeholder="Enter password" onChange={handleUserChange} />
                     </div>
 
-                    <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
+                    <button type="submit" className="btn btn-warning btn-block">Sign Up</button>
                     <br></br>
                 </form>
             </div>

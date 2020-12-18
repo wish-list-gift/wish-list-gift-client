@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import drake from '../images/drake.jpg'
-import taylor from '../images/taylorswift.jpg'
-import future from '../images/future.jpg'
-import goldgift from '../images/goldgift.jpeg'
+import angel from '../images/angel.jpg'
+import brito from '../images/brito.jpg'
+import david from '../images/david.jpg'
+import jurgen from '../images/jurgen.jpg'
+import val from '../images/val.jpg'
+import rabiul from '../images/rabiul.jpg'
+import niko from '../images/niko.jpg'
+import vivi from '../images/vivi2.jpeg'
+import darys from '../images/darys.JPG'
+
 import './Friends.css';
 
 const Friends = () => {
@@ -22,9 +28,9 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="drake" src={drake} className="rounded-circle img-thumbnail" alt="profile" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="drake" src={angel} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
-                                        <h4>Drake</h4>
+                                        <h4>Angel</h4>
                                     </div>
                                     <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
@@ -37,9 +43,9 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="taylor" src={taylor} className="rounded-circle img-thumbnail" alt="profile" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="taylor" src={brito} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
-                                        <h4>Taylor Swift</h4>
+                                        <h4>Brito</h4>
                                     </div>
                                     <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
@@ -52,57 +58,9 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="future" src={future} className="rounded-circle img-thumbnail" alt="profile" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="future" src={david} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
-                                        <h4>Future</h4>
-                                    </div>
-                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
-                                    <div className="mt-4">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!-- end col --> */}
-                    </div>
-                    {/* <!-- end row --> */}
-                    <div className="row">
-                        <div className="col-lg-4">
-                            <div className="text-center card-box">
-                                <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="drake" src={drake} className="rounded-circle img-thumbnail" alt="profile" /></div>
-                                    <div className="">
-                                        <h4>Drake</h4>
-                                    </div>
-                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
-                                    <div className="mt-4">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!-- end col --> */}
-                        <div className="col-lg-4">
-                            <div className="text-center card-box">
-                                <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="taylor" src={taylor} className="rounded-circle img-thumbnail" alt="profile" /></div>
-                                    <div className="">
-                                        <h4>Taylor Swift</h4>
-                                    </div>
-                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
-                                    <div className="mt-4">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!-- end col --> */}
-                        <div className="col-lg-4">
-                            <div className="text-center card-box">
-                                <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="future" src={future} className="rounded-circle img-thumbnail" alt="profile" /></div>
-                                    <div className="">
-                                        <h4>Future</h4>
+                                        <h4>David</h4>
                                     </div>
                                     <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
@@ -118,9 +76,9 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="drake" src={drake} className="rounded-circle img-thumbnail" alt="profile" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="drake" src={jurgen} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
-                                        <h4>Drake</h4>
+                                        <h4>Jurgen</h4>
                                     </div>
                                     <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
@@ -133,9 +91,9 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="taylor" src={taylor} className="rounded-circle img-thumbnail" alt="profile" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="taylor" src={val} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
-                                        <h4>Taylor Swift</h4>
+                                        <h4>Val</h4>
                                     </div>
                                     <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
@@ -148,9 +106,57 @@ const Friends = () => {
                         <div className="col-lg-4">
                             <div className="text-center card-box">
                                 <div className="member-card pt-2 pb-2">
-                                    <div className="thumb-lg member-thumb mx-auto"><img id="future" src={future} className="rounded-circle img-thumbnail" alt="profile" /></div>
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="future" src={rabiul} className="rounded-circle img-thumbnail" alt="profile" /></div>
                                     <div className="">
-                                        <h4>Future</h4>
+                                        <h4>Rabiul</h4>
+                                    </div>
+                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
+                                    <div className="mt-4">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <!-- end col --> */}
+                    </div>
+                    {/* <!-- end row --> */}
+                    <div className="row">
+                        <div className="col-lg-4">
+                            <div className="text-center card-box">
+                                <div className="member-card pt-2 pb-2">
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="drake" src={niko} className="rounded-circle img-thumbnail" alt="profile" /></div>
+                                    <div className="">
+                                        <h4>Niko</h4>
+                                    </div>
+                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
+                                    <div className="mt-4">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <!-- end col --> */}
+                        <div className="col-lg-4">
+                            <div className="text-center card-box">
+                                <div className="member-card pt-2 pb-2">
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="taylor" src={vivi} className="rounded-circle img-thumbnail" alt="profile" /></div>
+                                    <div className="">
+                                        <h4>Vivi</h4>
+                                    </div>
+                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
+                                    <div className="mt-4">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <!-- end col --> */}
+                        <div className="col-lg-4">
+                            <div className="text-center card-box">
+                                <div className="member-card pt-2 pb-2">
+                                    <div className="thumb-lg member-thumb mx-auto"><img id="future" src={darys} className="rounded-circle img-thumbnail" alt="profile" /></div>
+                                    <div className="">
+                                        <h4>Darys</h4>
                                     </div>
                                     <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
