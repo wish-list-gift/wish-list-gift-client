@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios'
-import avatar from '../images/goldgift.jpeg'
+import axios from 'axios';
+import wishes from '../images/Wishes.jpg'
+import avatar from '../images/profileavatar.png'
 import { Modal } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
 import redgift from '../images/redgift.png'
 
 
 function AddAWishList(props) {
-    const [setModalShow] = useState(false);
+    const [modalShow, setModalShow] = useState(false);
 
     const [product, setProduct] = useState({
         productName: "",
@@ -25,7 +26,7 @@ function AddAWishList(props) {
     function addProductHandler(event) {
 
         // event.preventDefault();
-        axios.post(`${process.env.REACT_APP_BASE_URL}/profile`, product, {
+        axios.post("http://localhost:3000/profile", product, {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem("token")}`,
             }
@@ -101,7 +102,7 @@ const ProfilePage = () => {
 
     useEffect(() => {
         // debugger
-        axios.get(`${process.env.REACT_APP_BASE_URL}/profile`, {
+        axios.get("http://localhost:3000/profile", {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem("token")}`,
             }
@@ -121,7 +122,7 @@ const ProfilePage = () => {
 
     useEffect(() => {
         // debugger
-        axios.get(`${process.env.REACT_APP_BASE_URL}/user-profile`, {
+        axios.get("http://localhost:3000/user-profile", {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem("token")}`,
             }
