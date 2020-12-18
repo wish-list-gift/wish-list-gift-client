@@ -126,7 +126,7 @@ const ProfilePage = () => {
                 <div className="row-justify-content-center">
                     <div className="col text-center">
                         <br />
-                        <h1 style={{ color: '#df744a', fontFamily: 'Dancing Script, cursive' }}>happiness is the same price as my wishlist ✨</h1>
+                        <h1 style={{ color: '#df744a', fontFamily: 'Dancing Script, cursive' }}>happiness is the same price as my wishlist </h1>
                     </div>
                 </div>
                 <br />

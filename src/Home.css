@@ -1,29 +1,17 @@
-/* .container { 
-    margin-left: 100px;
-    margin-right: 
-  }
+.container{
+    padding: 0%;
+}
 
- */
- 
-.cardHome{
+
+ .cardHome{
     text-align:center;
     background-color:transparent;
-/*     border-top:3px solid #df744a!important;
-    border-bottom:3px solid #df744a!important; */
+    width: 60%;
+
 }
 
-/* .cardBorder{
-    border-right:3px solid #df744a!important;
-    border-left:3px solid #df744a!important;
 
-} */
-
-/* .cardRow{
-    height: 100%;
-    width: 100%;
-}
- */
 hr {
     margin-top:.2rem;
-    margin-bottom: .5rem; 
+    margin-bottom: .2rem; 
 }
