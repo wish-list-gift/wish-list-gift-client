@@ -84,7 +84,7 @@ function AddAWishList(props) {
                         <input type="url" name="link" value={product.link} className="form-control" placeholder="Site link" onChange={handleProductChange} />
                     </div>
 
-                    <button type="submit" className="btn btn-primary btn-block">Wish it!</button>
+                    <button type="submit" className="btn btn-warning btn-block">Wish it!</button>
                     <br />
                 </form>
             </Modal.Body>
