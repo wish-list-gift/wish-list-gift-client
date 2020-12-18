@@ -188,6 +188,10 @@ const ProfilePage = () => {
                                                                 <p className="card-text"><strong>{eachProd.price}</strong></p>
                                                                 <p className="card-text"><strong>{eachProd.notes}</strong></p>
                                                                 <a href={eachProd.link} className="btn btn-warning">Gift it</a>
+                                                                {/* <br />
+                                                                <button>edit</button>
+                                                                <br />
+                                                                <button>delete</button> */}
                                                             </div>
                                                         </div>
                                                     </div>

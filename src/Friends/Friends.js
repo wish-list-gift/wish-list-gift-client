@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import drake from '../images/drake.jpg'
 import taylor from '../images/taylorswift.jpg'
 import future from '../images/future.jpg'
+import goldgift from '../images/goldgift.jpeg'
 import './Friends.css';
 
 const Friends = () => {
