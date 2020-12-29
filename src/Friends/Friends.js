@@ -32,7 +32,7 @@ const Friends = () => {
                                     <div className="">
                                         <h4>Angel</h4>
                                     </div>
-                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
+                                    <button type="button" className="btn btn-warning mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
 
                                     </div>
@@ -47,7 +47,7 @@ const Friends = () => {
                                     <div className="">
                                         <h4>Brito</h4>
                                     </div>
-                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
+                                    <button type="button" className="btn btn-warning mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
 
                                     </div>
@@ -62,7 +62,7 @@ const Friends = () => {
                                     <div className="">
                                         <h4>David</h4>
                                     </div>
-                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
+                                    <button type="button" className="btn btn-warning mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
 
                                     </div>
@@ -80,7 +80,7 @@ const Friends = () => {
                                     <div className="">
                                         <h4>Jurgen</h4>
                                     </div>
-                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
+                                    <button type="button" className="btn btn-warning mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
 
                                     </div>
@@ -95,7 +95,7 @@ const Friends = () => {
                                     <div className="">
                                         <h4>Val</h4>
                                     </div>
-                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
+                                    <button type="button" className="btn btn-warning mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
 
                                     </div>
@@ -110,7 +110,7 @@ const Friends = () => {
                                     <div className="">
                                         <h4>Rabiul</h4>
                                     </div>
-                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
+                                    <button type="button" className="btn btn-warning mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
 
                                     </div>
@@ -128,7 +128,7 @@ const Friends = () => {
                                     <div className="">
                                         <h4>Niko</h4>
                                     </div>
-                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
+                                    <button type="button" className="btn btn-warning mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
 
                                     </div>
@@ -143,7 +143,7 @@ const Friends = () => {
                                     <div className="">
                                         <h4>Vivi</h4>
                                     </div>
-                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
+                                    <button type="button" className="btn btn-warning mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
 
                                     </div>
@@ -158,7 +158,7 @@ const Friends = () => {
                                     <div className="">
                                         <h4>Darys</h4>
                                     </div>
-                                    <button type="button" className="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
+                                    <button type="button" className="btn btn-warning mt-3 btn-rounded waves-effect w-md waves-light">View Profile</button>
                                     <div className="mt-4">
 
                                     </div>
