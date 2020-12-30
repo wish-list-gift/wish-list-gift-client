@@ -26,7 +26,7 @@ function AddAWishList(props) {
     function addProductHandler(event) {
 
         // event.preventDefault();
-        axios.post("http://localhost:3000/profile", product, {
+        axios.post(`${process.env.REACT_APP_BASE_URL}/profile`, product, {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem("token")}`,
             }
@@ -102,7 +102,7 @@ const ProfilePage = () => {
 
     useEffect(() => {
         // debugger
-        axios.get("http://localhost:3000/profile", {
+        axios.get(`${process.env.REACT_APP_BASE_URL}/profile`, {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem("token")}`,
             }
@@ -122,7 +122,7 @@ const ProfilePage = () => {
 
     useEffect(() => {
         // debugger
-        axios.get("http://localhost:3000/user-profile", {
+        axios.get(`${process.env.REACT_APP_BASE_URL}/user-profile`, {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem("token")}`,
             }

@@ -20,7 +20,7 @@ const SignUp = (props) => {
     function addUserHandler(event) {
 
         event.preventDefault();
-        axios.post("http://localhost:3000/users/register", user)
+        axios.post(`${process.env.REACT_APP_BASE_URL}/users/register`, user)
             .then((res) => {
                 props.history.push("/login")
             })

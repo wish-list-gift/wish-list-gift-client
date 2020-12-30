@@ -18,7 +18,7 @@ const JoinSignIn = (props) => {
     })
     const submitLogin = (e) => {
         e.preventDefault()
-        axios.post("http://localhost:3000/users/login", userLoginInfo)
+        axios.post(`${process.env.REACT_APP_BASE_URL}/users/login`, userLoginInfo)
             .then(res => {
                 console.log('user login');
                 localStorage.setItem('token', res.data.token);
